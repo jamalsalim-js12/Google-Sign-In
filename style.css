@@ -1,0 +1,179 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 38%;
+    margin-top: 12%;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid #F0F0F0;
+    padding-top: 45px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 8%;
+}
+
+.signin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+}
+
+span {
+    margin-top: 15px;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #202124;
+    margin-left: 40px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+fieldset {
+    width: 80%;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    /* border-color: blue; */
+}
+
+legend{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    /* color: blue; */
+}
+
+input {
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid #F0F0F0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.recovery {
+    margin-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.guest {
+    margin-left: 45px;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 16px;
+}
+
+.moreinfo {
+    margin-left: 45px;
+    color: blue;
+    font-size: 14px;
+}
+
+
+.buttons {
+    width: 80%;
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.create {
+    margin-top: 50px;
+    font-family: 'Product Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 105px;
+}
+
+.buttons button {
+    height: 35px;
+    margin-top: 50px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+
+a :active , :visited {
+    color: blue;
+}
+
+.create:hover {
+    background-color: #E0F4FF;
+}
+
+
+
+select {
+    width: 40%;
+    height: 30px;
+    border: none;
+}
+
+footer {
+    width: 450px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.options {
+    width: 180px;
+}
+
+.options ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
